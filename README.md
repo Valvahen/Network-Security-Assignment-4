@@ -37,7 +37,6 @@ It is particularly useful for cloud-hosted environments and supports proactive n
 sudo apt update
 sudo apt install nmap -y
 ```
----
 ### 🚀 Basic Usage
 ```bash
 # Scan localhost
@@ -52,7 +51,7 @@ nmap -A 192.168.1.1
 # Save results to a file
 nmap -oN scan_result.txt 127.0.0.1
 ```
-
+---
 ### 📄 Sample Use Case
 
 #### We scanned:
@@ -71,7 +70,7 @@ nmap -oN scan_result.txt 127.0.0.1
 - Some public IPs blocked scan attempts
 - -A (aggressive scan) is slow; recommended for specific targets
 - Ensure permissions and ethical use of the tool on target systems
-
+---
 ## 🔹 Lynis (Linux Security Auditing Tool)
 ### 🧠 Why This Tool Was Chosen
 Lynis performs in-depth security audits of Linux/Unix systems and is highly relevant for cloud systems hosted on platforms like GCP and AWS. It's lightweight, fast, and outputs a list of actionable hardening suggestions.
@@ -85,7 +84,7 @@ Checks:
 - 🖧 SSH configurations
 
 Suggests remediation steps for security hardening
-
+---
 ### 📥 Installation
 ```bash
 sudo apt update
@@ -99,7 +98,7 @@ sudo lynis audit system
 # View important suggestions
 sudo cat /var/log/lynis-report.dat | grep -i "suggestion"
 ```
-
+---
 ###📄 Sample Use Case
 We ran Lynis on a standard Ubuntu 22.04 system.
 Key Findings:
