@@ -1,4 +1,4 @@
-# 🛡️ Network Security Assignment - 4
+ # 🛡️ Network Security Assignment - 4
 
 **By: Tanmay Saxena (Lynis) and Anirudha Desai (Nmap)**  
 This repository contains the practical implementation and analysis of two essential cybersecurity tools:
@@ -99,7 +99,7 @@ sudo lynis audit system
 sudo cat /var/log/lynis-report.dat | grep -i "suggestion"
 ```
 ---
-###📄 Sample Use Case
+### 📄 Sample Use Case
 We ran Lynis on a standard Ubuntu 22.04 system.
 Key Findings:
 
