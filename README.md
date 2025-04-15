@@ -3,8 +3,8 @@
 **By: Tanmay Saxena (Lynis) and Anirudha Desai (Nmap)**  
 This repository contains the practical implementation and analysis of two essential cybersecurity tools:
 
-- 🔹 [Nmap (Network Mapper)](#-nmap-network-mapper)
-- 🔹 [Lynis (Linux Security Auditing Tool)](#-lynis-linux-security-auditing-tool)
+- [Nmap (Network Mapper)](#-nmap-network-mapper)
+- [Lynis (Linux Security Auditing Tool)](#-lynis-linux-security-auditing-tool)
 
 Both tools were selected to complement key areas in **network** and **cloud/system security** — areas covered in our recent courses on Coursera.
 
